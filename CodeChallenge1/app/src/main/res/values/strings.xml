@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CodeChallenge1</string>
+    <string name="go_to_second_activity">Go to second activity</string>
+    <string name="go_back_to_first_activity">Go back to first activity</string>
+</resources>

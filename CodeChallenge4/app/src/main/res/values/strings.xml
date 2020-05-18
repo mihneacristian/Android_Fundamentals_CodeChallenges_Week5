@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Developer Fundamentals</string>
+    <string name="open_url">Open URL</string>
+    <string name="open_website">Open website</string>
+    <string name="open_location">Open location</string>
+    <string name="open_Location_Button">Open location</string>
+    <string name="share_text">Share text</string>
+    <string name="phone_number">Phone number</string>
+    <string name="call">Call</string>
+</resources>

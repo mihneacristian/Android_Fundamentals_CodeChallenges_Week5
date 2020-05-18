@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/openURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/open_url"
+        android:inputType="textUri"></EditText>
+
+    <Button
+        android:id="@+id/openURLButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openURLIntent"
+        android:text="@string/open_website"></Button>
+
+    <EditText
+        android:id="@+id/openLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/open_location"
+        android:layout_marginTop="16dp"
+        android:inputType="textPostalAddress"></EditText>
+
+    <Button
+        android:id="@+id/openLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openLocationIntent"
+        android:text="@string/open_Location_Button"></Button>
+
+    <EditText
+        android:id="@+id/shareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/share_text"
+        android:layout_marginTop="16dp"
+        android:inputType="text"></EditText>
+
+    <Button
+        android:id="@+id/shareTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="shareTextIntent"
+        android:text="@string/share_text"></Button>
+
+    <EditText
+        android:id="@+id/callNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:layout_marginTop="16dp"
+        android:inputType="phone"></EditText>
+
+    <Button
+        android:id="@+id/callNumberButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callNumberIntent"
+        android:text="@string/call"></Button>
+
+</LinearLayout>
